@@ -3,11 +3,12 @@ html {
 }
 
 .grid-container {
-  height: 600px;width: 600px;
+  height: 550px; 
+  width: 770px;
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(7, 1fr);
-  margin: 0px;
+  grid-template-columns: repeat(9, 110px);
+  grid-template-rows: repeat(7, 110px);
+  margin: -10px;
   padding: 0px;
   text-decoration: none;
   background-color: black;
@@ -21,7 +22,14 @@ img {
 	car c'est vilain :-p */
 	border:none;
 	padding: -10px;
+	
 }
+
+.test13,.test32,.test52,.test51 {
+	/*filter: invert(1); */
+}
+
+
 
 .test11 { grid-area: 1 / 1 / 2 / 2; }.test12 { grid-area: 2 / 1 / 3 / 2; }.test13 { grid-area: 3 / 1 / 4 / 2; }.test14 { grid-area: 4 / 1 / 5 / 2; }.test15 { grid-area: 5 / 1 / 6 / 2; }.test16 { grid-area: 6 / 1 / 7 / 2; }.test17 { grid-area: 7 / 1 / 8 / 2; }
 
